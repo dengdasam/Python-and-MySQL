@@ -81,8 +81,8 @@ def printGoods(itl):
 
 def main():
     
-    goods = '咖啡'
-    depth = 20
+    goods = '葡萄酒'
+    depth = 200
     start_url ='https://s.taobao.com/search?q='+goods
     
     list1 = []
