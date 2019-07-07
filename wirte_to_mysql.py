@@ -41,7 +41,7 @@ def printGoods(itl):
     
     cur = conn.cursor()
     
-    sqlc = '''  create table coffee(
+    sqlc = '''  create table bear(
     id int(11) not null auto_increment primary key,
     name varchar(255) not null,
     price float not null) DEFAULT CHARSET = utf8;'''
@@ -81,8 +81,8 @@ def printGoods(itl):
 
 def main():
     
-    goods = '葡萄酒'
-    depth = 200
+    goods = '啤酒'
+    depth = 100
     start_url ='https://s.taobao.com/search?q='+goods
     
     list1 = []
